@@ -1,0 +1,27 @@
+# 敏感信息（绝不提交）
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Docker / Milvus 本地数据
+volumes/
+docker-compose.yml
+standalone.bat
+embedEtcd.yaml
+user.yaml
+
+# IDE
+.idea/
+.vscode/
+
+# 评测中间产物
+eval_rows.json
+
+# 系统文件
+Thumbs.db
+.DS_Store
